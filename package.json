@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "start": "npm run dev",
+    "start": "vite preview",
     "build": "vite build",
+    "type-check": "tsc --noEmit",
     "lint": "eslint src/",
     "lint:fix": "eslint src/ --fix",
     "preview": "vite preview"
